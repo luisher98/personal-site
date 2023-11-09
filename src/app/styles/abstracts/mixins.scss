@@ -1,0 +1,49 @@
+@mixin backlight(
+  $left,
+  $top,
+  $right,
+  $bottom,
+  $position,
+  $z-index,
+  $spread,
+  $size,
+  $colorA,
+  $colorB,
+  $duration,
+  $width,
+  $height,
+  $max-height: auto,
+) {
+  left: $left;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  position: $position;
+  z-index: $z-index;
+  filter: blur($spread);
+  -webkit-filter: blur($spread);
+  -ms-filter: blur($spread);
+  -moz-filter: blur($spread);
+  transform: scale($size);
+  background: linear-gradient(270deg, $colorA, $colorB);
+  animation: animateGlow $duration ease infinite;
+  width: $width;
+  height: $height;
+  
+  display: flex;
+  justify-content: center;
+  border-radius: 30%;
+  background-size: 200% 200%;
+
+  @keyframes animateGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}

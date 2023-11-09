@@ -1,0 +1,134 @@
+{
+    "experience": {
+      "headers": ["Title", "Company", "Start Date", "End Date", "Description", "URL"],
+      "data": [
+        {
+          "title": "IT Technician",
+          "company": "Estudios del Terreno S.L.",
+          "startDate": "June 2018",
+          "endDate": "Present",
+          "description": "Maintenance of computer equipment and assistance. Maintenance and management of the company website. Troubleshooting issues related to networks, software, etc. Creation of Excel templates.",
+          "url": ""
+        },
+        {
+          "title": "Founder and Developer",
+          "company": "radoncanarias.com",
+          "startDate": "June 2020",
+          "endDate": "July 2022",
+          "description": "Web design and development using the Wordpress platform, PHP, CSS, and Javascript. Maintenance and management of eCommerce orders with WooCommerce technology. Use of various plugins for SEO, security, backups, etc.",
+          "url": "https://radoncanarias.com"
+        },
+        {
+          "title": "Front-End Developer",
+          "company": "W3 FanSports",
+          "startDate": "July 2022",
+          "endDate": "December 2022",
+          "description": "Front-end web development using React.js, Next.js, WordPress, PHP, CSS, SASS, Tailwind, and Javascript. Worked in a collaborative team environment and familiarized with Scrum methodologies.",
+          "url": "https://w3fansports.com"
+        }
+      ]
+    },
+    "studies": {
+      "headers": ["Degree", "School", "Year", "URL"],
+      "data": [
+        {
+          "degree": "Bachillerato PAU (Highschool)",
+          "school": "IES Agustín de Betancourt",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "degree": "Master's in Web Design and Development",
+          "school": "Creando Escuela",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "degree": "Advanced Vocational Training in Development of Web Applications",
+          "school": "IES Puerto de la Cruz",
+          "year": "2022",
+          "url": ""
+        },
+        {
+          "degree": "Bachelor's Degree in Techniques for Software Application Development",
+          "school": "Universitat Oberta Catalonia",
+          "year": "Present",
+          "url": ""
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": "1",
+        "title": "Project 1",
+        "description": "This is the description of Project 1.",
+        "imageSrc": "/project1.png",
+        "url": "https://example.com/project1"
+      },
+      {
+        "id": "2",
+        "title": "Project 2",
+        "description": "This is the description of Project 2.",
+        "imageSrc": "/project2.png",
+        "url": "https://example.com/project2"
+      },
+      {
+        "id": "3",
+        "title": "Project 3",
+        "description": "This is the description of Project 3.",
+        "imageSrc": "/project3.png",
+        "url": "https://example.com/project3"
+      }
+    ],
+    "tech-stack": [
+      {
+        "id": 1,
+        "name": "HTML",
+        "iconSrc": "/icons/html.svg",
+        "altText": "HTML"
+      },
+      {
+        "id": 2,
+        "name": "CSS",
+        "iconSrc": "/icons/css.svg",
+        "altText": "CSS"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "iconSrc": "/icons/javascript.svg",
+        "altText": "JavaScript"
+      },
+      {
+        "id": 4,
+        "name": "React",
+        "iconSrc": "/icons/react.svg",
+        "altText": "React"
+      },
+      {
+        "id": 5,
+        "name": "Next.js",
+        "iconSrc": "/icons/nextjs.svg",
+        "altText": "Next.js"
+      },
+      {
+        "id": 6,
+        "name": "Tailwind CSS",
+        "iconSrc": "/icons/tailwindcss.svg",
+        "altText": "Tailwind CSS"
+      },
+      {
+        "id": 7,
+        "name": "Sass",
+        "iconSrc": "/icons/sass.svg",
+        "altText": "Sass"
+      },
+      {
+        "id": 8,
+        "name": "Wordpress",
+        "iconSrc": "/icons/wordpress.svg",
+        "altText": "Wordpress"
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+@import "abstracts/mixins";
+
+.hero {
+  &__bottom-left {
+    @include backlight(
+      0,
+      auto,
+      auto,
+      0,
+      absolute,
+      auto,
+      5vw,
+      0.75,
+      #0fffc1,
+      #7e0fff,
+      5s,
+      50rem,
+      50rem
+    );
+  }
+}

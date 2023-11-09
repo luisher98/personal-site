@@ -1,0 +1,52 @@
+{
+  "tech-stack": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "iconSrc": "/icons/html.svg",
+      "altText": "HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "iconSrc": "/icons/css.svg",
+      "altText": "CSS"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "iconSrc": "/icons/javascript.svg",
+      "altText": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "iconSrc": "/icons/react.svg",
+      "altText": "React"
+    },
+    {
+      "id": 5,
+      "name": "Next.js",
+      "iconSrc": "/icons/nextjs.svg",
+      "altText": "Next.js"
+    },
+    {
+      "id": 6,
+      "name": "Tailwind CSS",
+      "iconSrc": "/icons/tailwindcss.svg",
+      "altText": "Tailwind CSS"
+    },
+    {
+      "id": 7,
+      "name": "Sass",
+      "iconSrc": "/icons/sass.svg",
+      "altText": "Sass"
+    },
+    {
+      "id": 8,
+      "name": "Wordpress",
+      "iconSrc": "/icons/wordpress.svg",
+      "altText": "Wordpress"
+    }
+  ]
+}

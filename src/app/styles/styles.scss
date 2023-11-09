@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+// Tailwind
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Abstracts
+@import "abstracts/__abstracts-dir";
+
+// Vendor
+// @import "vendor/__vendor-dir";
+
+// // Base Styles
+// @import "base/__base-dir";
+
+// // Components
+// @import "components/__components-dir";
+
+// // Layout
+// @import "layouts/__layouts-dir";
+
+
+$foreground-color: #5c6e93;
+$background-start-color: #D6DBDC;
+$background-end-color: #FFFFFF;
+
+@media (prefers-color-scheme: dark) {
+  $foreground-color: #FFFFFF;
+  $background-start-color: #000000;
+  $background-end-color: #000000;
+}
+
+body {
+  color: $foreground-color;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      $background-end-color
+    )
+    $background-start-color;
+}
