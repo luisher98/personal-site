@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import DartModeSwitch from "./DarkModeSwitch";
+import Link from "next/link";
 
 export default function Navigation() {
   const [isAtTop, setIsAtTop] = useState(true);
@@ -39,7 +40,7 @@ export default function Navigation() {
             <a className=" text-slate-400 hover:text-sky-400">About me</a>
           </li>
           <li>
-            <a className=" text-slate-400 hover:text-sky-400">Projects</a>
+            <Link href="/projects" className="text-slate-400 hover:text-sky-400">Projects</Link>
           </li>
           <li>
             <a className=" text-slate-400 hover:text-sky-400">Contact</a>

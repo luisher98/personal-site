@@ -1,6 +1,8 @@
-export default async function getTechStackData() {
+const URL = process.env.API_URL;
+
+export default async function getTechStack() {
   try {
-    const response = await fetch(`http://localhost:3500/techstack`);
+    const response = await fetch(`${URL}/tech-stack`);
     if (!response.ok)
       throw new Error(
         `Unable to fetch tech stack data: ${response.statusText}`

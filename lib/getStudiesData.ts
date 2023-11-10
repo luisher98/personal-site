@@ -1,6 +1,7 @@
-export default async function getStudiesData() {
+const URL = process.env.API_URL;
+export default async function getStudies() {
   try {
-    const response = await fetch(`http://localhost:3500/studies`);
+    const response = await fetch(`${URL}/studies`);
     if (!response.ok)
       throw new Error(`Unable to fetch studies data: ${response.statusText}`);
     const data = await response.json();

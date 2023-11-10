@@ -34,6 +34,11 @@ Before you begin, ensure you have met the following requirements:
 4. Start the next.js application
     ```
    npm run dev
-5. Start the json-server in a new terminal window
+
+5. Create .env.local and add the following
+   ```
+   API_URL = http://localhost:3500
+   
+6. Start the json-server in a new terminal window
    ```
    npx json-server -p 3500 -w ./data/data.json 

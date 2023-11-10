@@ -1,6 +1,8 @@
-import techStackData from "../data/techStackData.json";
+import getTechStackData from "../../lib/getTechStackData";
 
-export default function TechStack() {
+
+export default async function TechStack() {
+  const techStackData = await getTechStackData();
   return (
     <>
       <h3 className={`md:text-4xl font-bold text-center p-5 `}>My Tech Stack</h3>

@@ -1,11 +1,14 @@
 import type { Metadata } from 'next'
+import getProjectsData from '../../../lib/getProjectsData'
+import Projects from '../sections/Projects'
 
 export const metadata: Metadata = {
-    
 }
 
-export default function page() {
+export default function ProjectsPage() {
+
+
   return (
-    <div>page</div>
+    <Projects />
   )
 }

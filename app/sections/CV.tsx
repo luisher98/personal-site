@@ -1,13 +1,21 @@
-import React from "react";
-import cvData from "../data/cvData.json";
+import getExperience from "../../lib/getExperienceData";
+import getStudies from "../../lib/getStudiesData";
 
-export default function CV() {
+export default async function CV() {
+  const experience = await getExperience();
+  const studies = await getStudies();
+
+  const cvData = { Experience: experience, Studies: studies };
+
   return (
     <>
-      <h3 className="md:text-4xl font-bold text-center p-5">Curriculum vitae</h3>
+      <h3 className="md:text-4xl font-bold text-center mt-10">
+        Curriculum vitae
+      </h3>
+
       {Object.keys(cvData).map((category, categoryIndex) => (
         <div key={categoryIndex}>
-          <h2 className="text-2xl font-semibold mt-4">{category}</h2>
+          <h2 className="text-2xl font-semibold py-4">{category}</h2>
           <table className="table-auto border-collapse w-full">
             <thead>
               <tr>
