@@ -1,12 +1,6 @@
 {
   "experience": {
-    "headers": [
-      "Title",
-      "Company",
-      "Start Date",
-      "End Date",
-      "Description"
-    ],
+    "headers": ["Title", "Company", "Start Date", "End Date", "Description"],
     "data": [
       {
         "company": "Estudios del Terreno S.L.",
@@ -59,21 +53,96 @@
   "projects": [
     {
       "projectId": "1",
-      "title": "Project 1",
+      "title": "TubeSummary",
+      "year": 2023,
       "description": "This is the description of Project 1.",
-      "imageSrc": "/project1.png"
+      "link": "https://www.tubesummary.com/",
+      "stack": [{ "name": "", "iconSrc": "" }],
+      "media": [
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary on the phone"
+        },
+        {
+          "type": "video",
+          "category": "scroll-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "video visualization of TubeSummary"
+        },
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary"
+        }
+      ]
     },
     {
       "projectId": "2",
       "title": "Project 2",
+      "year": 2023,
       "description": "This is the description of Project 2.",
-      "imageSrc": "/project2.png"
+      "link": "https://www.tubesummary.com/",
+      "stack": [{ "name": "", "iconSrc": "" }],
+      "media": [
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary on the phone"
+        },
+        {
+          "type": "video",
+          "category": "scroll-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "video visualization of TubeSummary"
+        },
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary"
+        }
+      ]
     },
     {
       "projectId": "3",
       "title": "Project 3",
+      "year": 2023,
       "description": "This is the description of Project 3.",
-      "imageSrc": "/project3.png"
+      "link": "https://www.tubesummary.com/",
+      "stack": [{ "name": "", "iconSrc": "" }],
+      "media": [
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary on the phone"
+        },
+        {
+          "type": "video",
+          "category": "scroll-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "video visualization of TubeSummary"
+        },
+        {
+          "type": "image",
+          "category": "phone-view",
+          "title": "mainpage",
+          "src": "/project1.png",
+          "altText": "TubeSummary"
+        }
+      ]
     }
   ],
   "tech-stack": [
