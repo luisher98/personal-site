@@ -194,5 +194,28 @@
       "iconSrc": "/icons/wordpress.svg",
       "altText": "Wordpress"
     }
+  ],
+  "social-media": [
+    {
+      "id": 1,
+      "name": "LinkedIn",
+      "iconSrc": "/icons/linkedin.svg",
+      "altText": "LinkedIn",
+      "link": "https://www.linkedin.com/in/"
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "iconSrc": "/icons/github.svg",
+      "altText": "GitHub",
+      "link": "https://www.linkedin.com/in/"
+    },
+    {
+      "id": 3,
+      "name": "Leetcode",
+      "iconSrc": "/icons/leetcode.svg",
+      "altText": "Leetcode",
+      "link": "https://www.leetcode.com/"
+    }
   ]
 }
