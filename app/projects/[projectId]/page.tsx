@@ -11,13 +11,12 @@ export const metadata: Metadata = {
 
 export default async function ProjectPage({ params: { projectId } }: { params: Params }) {
   const project = await getProject(projectId);
-  const { title, description, imageSrc } = project;
-  console.log(title)
+
 
   return (
     <>     
       <h3>
-        {title}
+        {project.title}
       </h3>
     </> 
   )

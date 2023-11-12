@@ -1,8 +1,8 @@
 const URL = process.env.API_URL;
 
-export default async function getProject(projectId: string) {
+export default async function getProject(projectId: number) {
   try {
-    const response = await fetch(`${URL}/projects?projectId=${projectId}`);
+    const response = await fetch(`${URL}/projects/${projectId}`);
     if (!response.ok)
       throw new Error(`Unable to fetch project: ${response.statusText}`);
     const data = await response.json();
