@@ -1,7 +1,18 @@
 type Project = {
-  id: number;
+  id: string;
   title: string;
+  year: number;
   description: string;
-  imageSrc: string;
-  url: string;
+  link: string;
+  stack: Array<{
+    name: string;
+    iconSrc: string;
+  }>;
+  media: Array<{
+    type: 'image' | 'video';
+    category: string;
+    title: string;
+    src: string;
+    altText: string;
+  }>;
 };
