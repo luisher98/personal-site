@@ -6,17 +6,17 @@ type Params = {
 }
 
 export const metadata: Metadata = {
-  // ... you should define the metadata properties here
 }
 
 export default async function ProjectPage({ params: { projectId } }: { params: Params }) {
-  const project = await getProject(projectId);
+  const project: Project = await getProject(projectId);
+  const { title, year, description, link, stack, media} = project; 
 
 
   return (
     <>     
       <h3>
-        {project.title}
+        {title}
       </h3>
     </> 
   )

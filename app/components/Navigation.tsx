@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import DartModeSwitch from "./DarkModeSwitch";
+import DarkModeSwitch from "./DarkModeSwitch";
 import Link from "next/link";
 
 export default function Navigation() {
@@ -31,9 +31,10 @@ export default function Navigation() {
     fixed w-full z-10 transition duration-300 ease-in-out 
     ${isAtTop ? "" : "backdrop-blur-md shadow-xl"}`}
     >
-      <div className="text-white">
+
+      <Link href="/" className="text-white">
         <h1 className="text-xl font-bold">Luis Hernández</h1>
-      </div>
+      </Link>
       <div>
         <ul className="flex space-x-8 text-lg">
           <li>
@@ -46,7 +47,7 @@ export default function Navigation() {
             <a className=" text-slate-400 hover:text-sky-400">Contact</a>
           </li>
           <li>
-            <DartModeSwitch />
+            <DarkModeSwitch />
           </li>
         </ul>
       </div>

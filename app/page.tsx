@@ -9,17 +9,12 @@ import CV from "./sections/CV";
 export default function Home() {
   return (
     <>
-      <Navigation />
-      <div className="dark:bg-slate-900 dark:text-white p-16">
-        <div className="container mx-auto py-6">
-          <Hero />
-          <About />
-          <TechStack />
-          <Projects />
-          <CV />
-          <Contact />
-        </div>
-      </div>
+      <Hero />
+      <About />
+      <TechStack />
+      <Projects />
+      <CV />
+      <Contact />
     </>
   );
 }

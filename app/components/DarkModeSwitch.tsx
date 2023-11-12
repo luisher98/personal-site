@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function DartModeSwitch() {
+export default function DarkModeSwitch() {
   const [isDark, setIsDark] = useState(false);
 
   // on component mount, determine the initial theme

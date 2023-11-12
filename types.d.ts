@@ -1,5 +1,5 @@
 type Project = {
-  id: string;
+  id: number;
   title: string;
   year: number;
   description: string;
@@ -9,10 +9,12 @@ type Project = {
     iconSrc: string;
   }>;
   media: Array<{
-    type: 'image' | 'video';
+    mediaType: "main-image" | "image" | "video";
     category: string;
     title: string;
     src: string;
     altText: string;
   }>;
 };
+
+type Projects = Project[];

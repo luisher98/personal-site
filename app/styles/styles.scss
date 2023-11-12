@@ -26,13 +26,12 @@ $background-start-color: #D6DBDC;
 $background-end-color: #FFFFFF;
 
 @media (prefers-color-scheme: dark) {
-  $foreground-color: #FFFFFF;
   $background-start-color: #000000;
   $background-end-color: #000000;
 }
 
 body {
-  color: $foreground-color;
+
   background: linear-gradient(
       to bottom,
       transparent,
