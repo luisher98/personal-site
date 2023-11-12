@@ -7,21 +7,33 @@
         "title": "IT Technician",
         "startDate": "June 2018",
         "endDate": "Present",
-        "description": "Maintenance of computer equipment and assistance. Maintenance and management of the company website. Troubleshooting issues related to networks, software, etc. Creation of Excel templates."
+        "description": [
+          "Maintenance of computer equipment and assistance.",
+          "Maintenance and management of the company website.",
+          "Troubleshooting issues related to networks, software, etc.",
+          "Creation of Excel templates."
+        ]
       },
       {
         "company": "radoncanarias.com",
         "title": "Founder and Developer",
         "startDate": "June 2020",
         "endDate": "July 2022",
-        "description": "Web design and development using the Wordpress platform, PHP, CSS, and Javascript. Maintenance and management of eCommerce orders with WooCommerce technology. Use of various plugins for SEO, security, backups, etc."
+        "description": [
+          "Web design and development using the Wordpress platform, PHP, CSS, and Javascript.",
+          "Use of various plugins for SEO, security, backups, etc.",
+          "Maintenance and management of eCommerce orders with WooCommerce technology."
+        ]
       },
       {
         "company": "W3 FanSports",
         "title": "Front-End Developer",
         "startDate": "July 2022",
         "endDate": "December 2022",
-        "description": "Front-end web development using React.js, Next.js, WordPress, PHP, CSS, SASS, Tailwind, and Javascript. Worked in a collaborative team environment and familiarized with Scrum methodologies."
+        "description": [
+          "Front-end web development using React.js, Next.js, WordPress, PHP, CSS, SASS, Tailwind, and Javascript",
+          "Worked in a collaborative team environment and familiarized with Scrum methodologies."
+        ]
       }
     ]
   },
